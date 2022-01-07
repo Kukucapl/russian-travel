@@ -1,0 +1,39 @@
+.places__paragraph {
+  font-size: 18px;
+  line-height: 1.63;
+  margin: 0 0 26px;
+  grid-area: 2/2/3/3;
+}
+
+.places__paragraph:nth-of-type(2) {
+  grid-area: 3/2/4/3;
+  margin: 0;
+}
+
+.places__paragraph:only-of-type {
+  grid-area: 2/2/4/3;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+    margin: 0 0 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    grid-area: 4/1/5/2;
+    padding: 0 16px;
+  }
+
+  .places__paragraph:nth-of-type(2) {
+    grid-area: 5/1/6/2;
+  }
+
+  .places__paragraph:only-of-type {
+    grid-area: 4/1/5/2;
+  }
+}
