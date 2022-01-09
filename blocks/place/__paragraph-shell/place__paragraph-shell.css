@@ -1,0 +1,17 @@
+.place__paragraph-shell {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 26px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph-shell {
+      row-gap: 25px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place__paragraph-shell {
+      padding: 0 16px;
+    }
+  }

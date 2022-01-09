@@ -1,10 +1,10 @@
-.places__image {
+.place__image {
   max-width: 100%;
   grid-area: 2/1/4/2;
 }
 
 @media screen and (max-width: 767px) {
-  .places__image {
+  .place__image {
     grid-area: 3/1/4/2;
     padding-bottom: 32px;
   }

@@ -1,0 +1,14 @@
+.header__link-shell {
+  margin: 0 18px 6px 0;
+}
+
+.header__link-shell:last-of-type {
+    margin-right: 0; 
+} 
+
+@media screen and (max-width: 767px) {
+  .header__link-shell {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
